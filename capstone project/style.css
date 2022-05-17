@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   font-family: sans-serif;
+}
+body.img{
+    background-image: url(1.png.png);
+    border-image-repeat: no repeat;
+    background-image: cover;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(1.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+.hamburger-menu{
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.hamburger-menu::hover{
+    background-color: white;
+    color: white;
+}
+.navbar{
+    width: 200px;
+    height: 100%;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.change.line-1{
+    transform: rotateZ(-45deg) translate(-8px ,6px);
+}
+.change.line-2{
+    opacity: 0;
+}
+.change.line-3{
+    transform: rotateZ(45deg) translate(-8px ,-6px);
+}
+.nav-list{
+    text-align: right;
+}
+.nav-item{
+    list-style: none;
+    margin: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.form{
+    width: 100%;
+    height: 200%;
+    background: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.form h2{
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.form input{
+    width: 200px;
+    height: 30px;
+    background: white;
+    border-bottom: 2px solid orange;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: orange;
+    font-family: Arial, ;
+}
+.btn{
+    width: 250px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: orange;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
